@@ -1,10 +1,12 @@
 import React from 'react';
-import './index.less'
+
+
+import './cesium'
 
 function App() {
   return (
-    <div id="test">
-        <div id="test1">asd</div>
+    <div id="cesiumContainer">
+
     </div>
   );
 }

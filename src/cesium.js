@@ -22,6 +22,7 @@ cesiumPromise.then((Cesium) => {
     var cesiumDOM = document.getElementById('cesiumContainer')
 
     if (cesiumDOM && Cesium) {
+        
         var viewer = new Cesium.Viewer('cesiumContainer', {
             // 创建地形服务提供者的实例，url为SuperMap iServer发布的TIN地形服务
             terrainProvider: new Cesium.CesiumTerrainProvider({

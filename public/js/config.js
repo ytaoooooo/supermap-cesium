@@ -1,6 +1,6 @@
 var URL_CONFIG = {
-    TDT_IMG : 'https://[subdomain].tianditu.com/img_w/wmts',//天地图影像
-    TDT_LABEL : 'https://[subdomain].tianditu.com/cia_w/wmts',//天地图文字注记
+    TDT_IMG : 'https://[subdomain].tianditu.gov.cn/img_w/wmts',//天地图影像
+    TDT_LABEL : 'https://[subdomain].tianditu.gov.cn/cia_w/wmts',//天地图文字注记
     BINGMAP : '//dev.virtualearth.net',//bing map影像
     STK : 'https://www.supermapol.com/realspace/services/3D-stk_terrain/rest/realspace/datas/info/data/path',//STK 地形
     ZF_IMG : 'http://www.supermapol.com/realspace/services/3D-dxyx_ios2/rest/realspace/datas/MosaicResult_2@IMAGE_1',
@@ -69,7 +69,7 @@ var URL_CONFIG = {
     SCP_WORLD_COUNTRY_VECTOR: 'http://www.supermapol.com/realspace/services/3D-Countries-World2/rest/realspace/datas/Countries_1@World/config', // 全球国家边界线的矢量
     SCENE_POLYLINEGROW_BUINDINGS: 'http://www.supermapol.com/realspace/services/3D-buildings1122/rest/realspace', // 光晕效果线数据,
     SCENE_TISHUJU: 'http://www.supermapol.com/realspace/services/3D-tishuju/rest/realspace', // 体数据场景
-    BING_MAP_KEY: 'AqYgyS1gIIDGsxmOlncqrgA83cHnhClLwZmIJXbYXX36pfxKYtUGk12Q3splaf4Y',
+    BING_MAP_KEY: 'AhLx52IuZUuca_C3zK2TzBG2eu1vihUkayqc_e4MISbXZyn5Zw_X--odRqrweVap',
     SCENE_GTC_UINSIDE:'http://www.supermapol.com/realspace/services/3D-data_all/rest/realspace/datas/%E5%86%85%E9%83%A8%E7%BB%93%E6%9E%84@%E5%AE%A4%E5%86%85/config',//u型BIM室内
 	SCENE_GTC_UOUTSIDE:'http://www.supermapol.com/realspace/services/3D-data_all/rest/realspace/datas/%E5%A4%96%E9%83%A8%E7%BB%93%E6%9E%84@%E5%AE%A4%E5%86%85/config',//u型BIM室外
 	SCENE_GTC_UWINDOW:'http://www.supermapol.com/realspace/services/3D-data_all/rest/realspace/datas/U%E5%9E%8B%E5%BB%BA%E7%AD%91%E7%AA%97@%E5%AE%A4%E5%86%85/config',//u型BIM窗

@@ -51313,6 +51313,14 @@ ol.format.MVT.prototype.readFeatures = function(source, opt_options) {
     if (layers && layers.indexOf(name) == -1) {
       continue;
     }
+
+    if(opt_options !== undefined){
+        var needSourceLayerNames = opt_options.needSourceLayerNames;
+        if(needSourceLayerNames !== undefined && needSourceLayerNames[name] === undefined){
+            continue;
+        }
+    }
+
     pbfLayer = pbfLayers[name];
 
     var rawFeature;
